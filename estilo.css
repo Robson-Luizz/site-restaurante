@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script&family=Great+Vibes&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: 'Fresca', sans-serif;
+    background: black;
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: rgb(59, 2, 2);
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    flex:20%;
+    margin-left: 2%;
+    /* border: 1px solid red; */
+    text-align: left;
+}
+.logo h1{
+    font-family: 'Dancing Script', cursive;
+    color: #b3a742;
+    font-size:34px;
+
+}
+.menu{
+    flex: 70%;
+    /* border: 1px solid green; */
+    text-align: right;
+    padding: 20px;
+}
+.menu a{
+    color: #b3a742;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+.menu a:hover{
+    color: #866262;
+    border-top: 4px solid #866262;
+}
+#botao{
+    background: #b3a742;
+    padding: 10px 25px;
+    color: rgb(56, 17, 17);
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+#botao:hover{
+    border:none;
+    background: #866262 ;
+}
+.header{
+    background: rgba(59, 49, 21, 0.932);
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+    /* border: 1px solid rgb(245, 0, 0); */
+}
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    /* border: 1px solid deeppink; */
+    text-align: center;
+}
+.headline h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(209, 163, 141);
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.headline p{
+    color: rgb(223, 223, 223);
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.contact-btn{
+    background: #b3a742;
+    padding: 20px;
+    color:  rgb(56, 17, 17);
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.contact-btn:hover{
+    background: #866262;
+    
+}
+footer{
+    background: rgba(3, 3, 3, 0.932);
+    text-align: center;
+    border-top: 5px solid rgb(56, 17, 17);
+}
+.logo-rodape{
+    padding: 100px;
+}
+.restaurantes{
+    font-family: 'Dancing Script', cursive;
+    color: #b3a742;
+    font-size:40px;
+}
