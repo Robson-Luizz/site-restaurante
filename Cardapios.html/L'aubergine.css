@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: 'Fresca', sans-serif;
+    background: black;
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: rgb(59, 2, 2);
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.menu{
+    flex: 70%;
+    /* border: 1px solid green; */
+    text-align: left;
+    
+}
+.menu a{
+
+    text-decoration: none;
+    font-size: 20px;
+ 
+}
+.menu a:hover{
+    color: #866262;
+    border-top: 4px solid #866262;
+}
+#botao{
+    background: #b3a742;
+    padding: 10px 25px;
+    color: rgb(56, 17, 17);
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+
+}
+#botao:hover{
+    border:none;
+    background: #866262 ;
+}
+.header{
+    background: rgba(59, 49, 21, 0.932);
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer{
+    margin-top: 0x;
+    max-height: 400px;
+    background: rgba(3, 3, 3, 0.932);
+    text-align: center;
+    border-top: 5px solid rgb(56, 17, 17);
+}
+
+.restaurantes{
+    font-family: 'Dancing Script', cursive;
+    color: #b3a742;
+    font-size:40px;
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+
+.Logozinha{
+    text-align: center;
+    font-size: 30px;
+    margin: 1px;
+    font-family:'Dancing Script', cursive;
+    color: #b3a742;
+}
+
+.texto {
+    text-align: center;
+    display: inline-flex;
+    font-size: 30px;
+    padding-right: 3%;
+    padding-left: 3% ;
+     /* border: 1px solid red;  */
+     border-radius: 2%;
+    /* background-color: rgb(0, 0, 0); */
+    font-family: 'Courgette', cursive;
+    color: #c7c39e;
+        
+    }
+    
+    .bordinha {
+        /* border: 1px solid red; */
+        margin-right: 20px;
+        margin-left: 20px;
+        display:flex;
+    }
+    
+    .outrohr2{
+        width: 50%;
+        margin-left: 5%;
+    }
+    
+    .prato {
+        /* border: 1px solid red; */
+        text-align: start;
+        margin-left: 25%;
+        font-family: 'Dancing Script', cursive;
+        font-size: 40px;
+        color: #f0de8f;
+        
+        
+    }
+    
+    .outrohr{
+        text-align: center;
+        width: 50%;
+        margin-left: 5%;
+        display: inline-block;
+    }
+    
+
+
+.Imagem{
+  
+    max-width: 800%;
+    width: 800%;
+    display: inline-block;
+
+}
+
+

@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script&family=Great+Vibes&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Fresca', sans-serif;
+background-color: black;
+
+}
+
+.navbarr{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: rgb(59, 2, 2);
+    justify-content: center;
+    align-items: center;
+    
+}
+.logoo{
+    flex:20%;
+    margin-left: 2%;
+    /* border: 1px solid red; */
+    text-align: left;
+    
+}
+
+.logoo h1{
+    font-family: 'Dancing Script', cursive;
+    color: #b3a742;
+    font-size:34px;
+
+}
+
+.menuu{
+    flex: 70%;
+    /* border: 1px solid green; */
+    text-align: right;
+    padding: 20px;
+
+}
+.menuu a{
+    color: #b3a742;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+.menuu a:hover{
+    color: #866262;
+    border-top: 4px solid #866262;
+}
+#botaosuporte{
+    background: #b3a742;
+    padding: 10px 25px;
+    color: rgb(56, 17, 17);
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-left: 5%;
+}
+#botaosuporte:hover{
+    border:none;
+    background: #866262;
+}
+.headerr{
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background:rgba(59, 49, 21, 0.932);
+}
+.headlinee{
+    margin-left: 10%;
+    flex: 40%;
+    padding: 90px;
+    /* border: 1px solid black; */
+}
+
+  
+  
+  .restaurant-container {
+
+    
+    text-align: center;
+    margin: 30px auto;
+    padding:20px;
+    border-radius: 60px;
+    background-color: #000000;
+    box-shadow: 0 0 10px rgb(145, 83, 83);
+    width: 60%;
+    max-width: 800px;
+    margin-right: 30px;
+    
+  }
+  
+  .restaurantestrela {
+    margin-bottom: 20px;
+  }
+  
+  .estrelas {
+    color: #ffcc00;
+    font-size: 24px;
+    text-shadow: #ffd505 1px 0 10px;
+
+
+    
+  }
+  
+  .nome {
+    margin: 0;
+    color: #b3a742;
+    padding-top: 10px;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .menu {
+    margin-top: 20px;
+  }
+  
+  .comidas {
+    display: block;
+    text-decoration: none;
+    color: #cfd1af;
+    background-color: #5e443c;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .comidas:hover {
+    background-color: #5e080885;
+    color: rgb(109, 110, 65);
+  }
+  
+  .nome-do-prato {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .preço {
+    font-size: 14px;
+  }
+  
+
+.headlinee h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #c79485;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+
+}
+.headlinee p{
+    color: rgb(221, 216, 213);
+    text-align: start;
+    
+    padding: 0;
+    margin: 0;
+}
+footer{
+    margin-top: 0px;
+    max-height: 400px;
+    background: rgba(3, 3, 3, 0.932);
+    text-align: center;
+    border-top: 5px solid rgb(56, 17, 17);
+}
+.restaurantee{
+    font-family: 'Dancing Script', cursive;
+    color: #b3a742;
+    font-size: 40px;
+    
+    
+}
+.entradas {
+  text-align: left;
+  margin: 1px;
+  color: rgb(179, 182, 141);
+  
+}
+.tamanho{
+  width: 15%;
+  margin: 1px;
+ 
+}
+
+
+#h2zinho{
+  font-size: 80px;
+}
+
+.pzinho{
+  font-size: 30px;
+  
+}
