@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script&family=Great+Vibes&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: 'Fresca', sans-serif;
+    background: black;
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: rgb(59, 2, 2);
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    flex:20%;
+    margin-left: 2%;
+    /* border: 1px solid red; */
+    text-align: left;
+}
+.logo h1{
+    font-family: 'Dancing Script', cursive;
+    color: #b3a742;
+    font-size:34px;
+
+}
+.menu{
+    flex: 70%;
+    /* border: 1px solid green; */
+    text-align: right;
+    padding: 20px;
+}
+.menu a{
+    color: #b3a742;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+.menu a:hover{
+    color: #866262;
+    border-top: 4px solid #866262;
+}
+#botao{
+    background: #b3a742;
+    padding: 10px 25px;
+    color: rgb(56, 17, 17);
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+#botao:hover{
+    border:none;
+    background: #866262 ;
+}
+.header{
+    background: rgba(59, 49, 21, 0.932);
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer{
+    margin-top: 0x;
+    max-height: 400px;
+    background: rgba(3, 3, 3, 0.932);
+    text-align: center;
+    border-top: 5px solid rgb(56, 17, 17);
+}
+
+.restaurantes{
+    font-family: 'Dancing Script', cursive;
+    color: #b3a742;
+    font-size:40px;
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+.botaozinho{
+    display: inline-block;
+    width: 11%;
+    padding: 1px;
+    margin: 1%;
+    /* border: 1px solid green; */
+    border-radius: 100px;
+    cursor: grab;
+    text-align: center;
+}
+
+.botaozinho:hover{
+    background: rgba(77, 64, 26, 0.932);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    
+}
+
+.imagens{
+    cursor: grab;
+}
+.letras{
+    color: rgb(217, 224, 149);
+}
