@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Cadastro Ratatouille</title>
+    
+
+        
+
+</head>
+<body>
+
+
+    <div class="conteiner-form">
+        <form>
+
+            <div class="login">
+                <a href="#">Login</a>
+            </div>
+
+           
+        
+            <input type="text" placeholder="Usuário" id="usuário">
+           
+           
+            <input type="password" placeholder="Senha" id="senha">
+           
+            <input type="submit" onclick="logar(); return false">
+        </div>
+        </form>
+        
+    </div>
+
+    <footer>
+
+        <div class="rodape">
+        <h3>Restaurante Ratatouille</h3>
+        </div>
+
+    </footer>
+
+    <script>
+
+        function logar(){
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+
+            if(login == "admin" && senha == "admin"){
+                alert('Tudo certo!Você sera redirecionado para o Ratatouille');
+                location.href = "index.html";
+            }else{
+                alert(' Usuário ou senha incorretos');
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
